@@ -1,0 +1,20 @@
+body{
+    margin-top: 5%;
+    margin-left: 8%;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    background-color: red;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 40px 800px 40px 40px;
+    width: 20%;
+}
+img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 93%;
+}

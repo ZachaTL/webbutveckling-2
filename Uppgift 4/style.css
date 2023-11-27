@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.calculator{
+    position: relative;
+    border: 2px solid black;
+    width: 65%;
+    margin: auto;
+    padding: 20px;
+}
+.pq-formeln button{
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+}
+.pythagoras div{
+    position: relative;
+    left: 25%;
+}
+.pythagoras button{
+    position: relative;
+    left: 60px;
+}
+.pythagoras img{
+    position: absolute;
+    width: 25%;
+}
+#a{
+    position: relative;
+    left: 200px;
+    bottom: 155px;
+}
+#b{
+    position: relative;
+    left: 400px;
+    bottom: 310px;
+}
+.lutning{
+    position: relative;
+    margin-top: -300px;
+}
+.lutning button{
+    position: relative;
+    left: 30px;
+    bottom: 19px;
+}
+.lutning img{
+    position: absolute;
+    width: 25%;
+    top: 20%;
+}
+.lutning p{
+    position: relative;
+    left: 25%;
+}
+#k{
+    position: absolute;
+    left: 67%;
+    bottom: 35px;
+}
+#m{
+    position: absolute;
+    left: 67%;
+}

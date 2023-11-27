@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 30px;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 300px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+h2{
+    margin-left: 10px;
+}
+p{
+    width: 68%;
+    margin-left: 10px;  
+}
+#hamnensdag{
+    position: absolute;
+    width: 400px;
+    left: 70%;
+}

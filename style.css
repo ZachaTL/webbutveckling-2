@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    text-decoration: underline;
+}

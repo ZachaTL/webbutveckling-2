@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uppgift 4 - Mattesidan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Välkommen till Mattesidan
+    </h1>
+    <div class="calculator">
+        <div class="pq-formeln">
+            <h2>
+                PQ-Formeln
+            </h2>
+            <p>
+                Skriv in p: <input type="text" id="pInput">
+                <br><br>
+                Skriv in q: <input type="text" id="qInput">
+                <button type="button" onclick="calculatePQ()">Beräkna</button>
+            </p>
+            <p>
+                Svar 1: <span id="PQresult1"></span>
+                <br>
+                Svar 2: <span id="PQresult2"></span>
+            </p>
+        </div>
+        <div class="pythagoras">
+            <h2>
+                Pythagoras
+            </h2>
+            <img src="Bilder/pythargaros.png" alt="pythagoras">
+            <div>
+                <p>
+                    a <input type="text" id="aInput_c">
+                    <br><br>
+                    b <input type="text" id="bInput_c">
+                    <br><br>
+                    <button type="button" onclick="cCalculate()">Beräkna</button>
+                    <br><br>
+                    c = <span id="cResult"></span>
+                </p>
+                <p id="a">
+                    b <input type="text" id="bInput_a">
+                    <br><br>
+                    c <input type="text" id="cInput_a">
+                    <br><br>
+                    <button type="button" onclick="aCalculate()">Beräkna</button>
+                    <br><br>
+                    a = <span id="aResult"></span>
+                </p>
+                <p id="b">
+                    a <input type="text" id="aInput_b">
+                    <br><br>
+                    c <input type="text" id="cInput_b">
+                    <br><br>
+                    <button type="button" onclick="bCalculate()">Beräkna</button>
+                    <br><br>
+                    b = <span id="bResult"></span>
+                </p>
+            </div>
+        </div>
+        <div class="lutning">
+            <h2>
+                Funktionens lutning och m-värde
+            </h2>
+            <img src="Bilder/y=kx+m.png" alt="y=kx+m">
+            <p>
+                x1 <input type="text" id="x1Input">&nbsp;&nbsp;&nbsp;
+                x2 <input type="text" id="x2Input">
+                <br><br>
+                y1 <input type="text" id="y1Input">&nbsp;&nbsp;&nbsp;
+                y2 <input type="text" id="y2Input">
+                <button type="button" onclick="kmCalculate()">Beräkna</button>
+                <span id="k">k = <span id="kResult"></span></span>
+                <span id="m">m = <span id="mResult"></span></span>
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
