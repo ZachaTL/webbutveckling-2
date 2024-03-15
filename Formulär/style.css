@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.body{
+    margin: auto;
+    width: 50%;
+    background-color: white;
+}
+h1{
+    position: relative;
+    left: 3%;
+    padding-top: 1%;
+}
+img{
+    width: 100%;
+    position: relative;
+}
+hr{
+    width: 97%;
+}
+p{
+    width: 95%;
+    margin: auto;
+    word-spacing: 3px;
+    color: darkslategrey;
+}
+form p{
+    position: relative;
+    right: 2%;
+    width: 90%;
+}
+#name{
+    width: 100%;
+    padding: 1.5%;
+    font-size: large;
+}
+select{
+    width: 103.7%;
+    padding: 2%;
+    padding-left: 8%;
+    margin: 2% 0 2% 0;
+}

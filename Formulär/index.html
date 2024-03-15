@@ -7,6 +7,43 @@
     <title>Formulär</title>
 </head>
 <body>
-    
+    <div class="body">
+        <h1>Report a Player After a Game</h1>
+        <img src="banner.jpg" alt="banner" width="90%">
+        <br><br><hr><br>
+        <p>
+            Looking to report a player in League of Legends but forgot to after the game?
+            Well now you can! We understand that sometimes a player's disruptive 
+            behavior can take a tilt for the worst. Login here to report a player. We
+            accept any report for a player that you have played with during your last 20
+            games.
+        </p>
+        <br><br><br>
+        <form action="submit.html" method="POST">
+            <p>
+                <input type="text" placeholder="Summoner Name" id="name">
+            </p>
+            <p>
+                <select name="reason" id="reasons">
+                    <option value="select">Select</option>
+                    <option value="negative">NEGATIVE ATTITUDE</option>
+                    <option value="verbal">VERBAL ABUSE</option>
+                    <option value="afk">LEAVING/AFK</option>
+                    <option value="crossteam">ASSISTING ENEMY TEAM</option>
+                    <option value="hate">HATE SPEECH</option>
+                </select>
+            </p>
+            <p>
+                <textarea 
+                    name="reason_text" 
+                    id="reason_text" 
+                    cols="78" 
+                    rows="6"
+                    placeholder="Reason for reporting"
+                ></textarea>
+            </p>
+            <input type="submit" value="LATE REPORT">
+        </form>
+    </div>
 </body>
 </html>
