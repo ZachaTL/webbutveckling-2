@@ -19,18 +19,18 @@
             games.
         </p>
         <br><br><br>
-        <form action="submit.html" method="POST">
+        <form action="submit.html"onsubmit="submitInformation()">
             <p>
                 <input type="text" placeholder="Summoner Name" id="name">
             </p>
             <p>
                 <select name="reason" id="reasons">
-                    <option value="select">Select</option>
-                    <option value="negative">NEGATIVE ATTITUDE</option>
-                    <option value="verbal">VERBAL ABUSE</option>
-                    <option value="afk">LEAVING/AFK</option>
-                    <option value="crossteam">ASSISTING ENEMY TEAM</option>
-                    <option value="hate">HATE SPEECH</option>
+                    <option value="Select">Select</option>
+                    <option value="NEGATIVE ATTITUDE">NEGATIVE ATTITUDE</option>
+                    <option value="VERBAL ABUSE">VERBAL ABUSE</option>
+                    <option value="LEAVING/AFK">LEAVING/AFK</option>
+                    <option value="ASSISTING ENEMY TEAM">ASSISTING ENEMY TEAM</option>
+                    <option value="HATE SPEECH">HATE SPEECH</option>
                 </select>
             </p>
             <p>
@@ -42,8 +42,10 @@
                     placeholder="Reason for reporting"
                 ></textarea>
             </p>
-            <input type="submit" value="LATE REPORT">
+            <input type="submit" value="LATE REPORT" id="button">
         </form>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

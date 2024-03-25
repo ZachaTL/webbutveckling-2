@@ -42,3 +42,14 @@ select{
     padding-left: 8%;
     margin: 2% 0 2% 0;
 }
+#button{
+    text-align: center;
+    font-size: x-small;
+    position: relative;
+    background-color: rgb(216, 0, 0);
+    border: none;
+    color: white;
+    margin: 5px;
+    padding: 10px 15px 10px 15px;
+    left: 14px;
+}
