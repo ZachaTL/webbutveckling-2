@@ -5,7 +5,7 @@ function submitInformation() {
     var reason = document.getElementById("reasons").value;
     var explanation = document.getElementById("reason_text").value;
 
-    if (summonerName && reason && explanation) {
+    if (summonerName && reason !== "Select" && explanation) {
         localStorage.setItem("summonerName", summonerName);
         localStorage.setItem("reason", reason);
         localStorage.setItem("explanation", explanation);
